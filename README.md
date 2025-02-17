@@ -6,6 +6,15 @@ Repositório para estudo de ferramentas de Diagramas como Código.
 
 - https://www.plantuml.com/
 
+<details>
+<summary>Diagrama de Sequencia/summary>
+<pre>
+
+![](out/docs/api-sequence/api-sequence.png)
+
+</pre>
+</details>
+
 ### Dependencias Ubuntu/Codespace
   
 ```sh
@@ -16,6 +25,9 @@ pip3 install pydot graphviz
 ### Visual Code
 
 - Instalar extensão **PlantUML**
+
+
+
 
 ## MermaidJS
 
