@@ -7,7 +7,7 @@ Repositório para estudo de ferramentas de Diagramas como Código.
 - https://www.plantuml.com/
 
 <details>
-<summary>Diagrama de Sequencia/summary>
+<summary>Diagrama de Sequencia</summary>
 <pre>
 
 ![](out/docs/api-sequence/api-sequence.png)
