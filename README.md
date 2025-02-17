@@ -13,7 +13,7 @@ Repositório para estudo de ferramentas de Diagramas como Código.
 ![](out/docs/api-sequence/api-sequence.png)
 
 </pre>
-</details>
+</details> 
 
 ### Dependencias Ubuntu/Codespace
   
