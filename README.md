@@ -1,8 +1,31 @@
 # Diagrams
 
-Diagrams studies
+Repositório para estudo de ferramentas de Diagramas como Código.
 
-## Pre req
+## PlantUml
+
+- https://www.plantuml.com/
+
+### Dependencias Ubuntu/Codespace
+  
+```sh
+sudo apt update
+pip3 install pydot graphviz
+```
+
+### Visual Code
+
+- Instalar extensão **PlantUML**
+
+## MermaidJS
+
+- https://mermaid.js.org/intro/
+  
+## Diagrams (Python)
+
+- https://diagrams.mingrammer.com/
+
+### Pre req
 
 ```
 sudo apt install graphviz
@@ -23,7 +46,3 @@ Bravo -> Alpha: Step 4
 </pre>
 </details>
 ```
-
-## References
-
-- https://diagrams.mingrammer.com/
