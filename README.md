@@ -7,6 +7,15 @@ Repositório para estudo de ferramentas de Diagramas como Código.
 - https://www.plantuml.com/
 
 <details>
+<summary>Diagrama de Atividades</summary>
+<pre>
+
+![](out/docs/activity/activity.png)
+
+</pre>
+</details> 
+
+<details>
 <summary>Diagrama de Sequencia</summary>
 <pre>
 

@@ -1,4 +1,8 @@
 @startuml
+
+title Diagrama de Sequencias
+footer Disponível em https://github.com/acnaweb/diagrams
+
 actor Usuario
 participant Frontend
 participant ProductController

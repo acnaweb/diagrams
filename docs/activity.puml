@@ -1,0 +1,43 @@
+@startuml
+title Diagrama de Atividades com Swinlanes
+footer Disponível em https://github.com/acnaweb/diagrams
+
+|Pessoa A|
+start
+:Iniciar processo;
+:Coletar dados;
+
+|Pessoa B|
+:Verificar dados obrigatórios;
+if (Dados válidos?) then (Sim)
+    :Verificar formato dos dados;
+    |Pessoa C|
+    if (Formato correto?) then (Sim)
+        :Processar dados;
+    else (Não)
+        :Notificar erro de formato;
+        stop
+    endif
+else (Não)
+    :Notificar erro de dados obrigatórios;
+    stop
+endif
+
+|Pessoa A|
+:Analisar dados;
+
+|Pessoa B|
+:Aplicar lógica de negócios;
+if (Lógica bem-sucedida?) then (Sim)
+    :Gerar relatório;
+    :Enviar relatório por e-mail;
+else (Não)
+    :Notificar erro de processamento;
+    stop
+endif
+
+|Pessoa A|
+:Arquivar dados processados;
+:Registrar operação no log;
+stop
+@enduml
