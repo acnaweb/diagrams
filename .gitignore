@@ -2,6 +2,7 @@ data/*
 credentials/*
 */.structurizr/*
 outputs/*
+workspace.json
 
 # Node *******************************************************************************
 # Logs
