@@ -44,6 +44,9 @@ pip3 install pydot graphviz
 docker run -it --rm -p 8080:8080 -v $PWD/diagrams:/usr/local/structurizr structurizr/lite
 ```
 
+- http://localhost:8080/
+
+
 ## MermaidJS
 
 - https://mermaid.js.org/intro/
