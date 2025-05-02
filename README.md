@@ -35,8 +35,14 @@ pip3 install pydot graphviz
 
 - Instalar extensão **PlantUML**
 
+## Structurizr 
+
+- https://structurizr.com/
 
 
+```sh
+docker run -it --rm -p 8080:8080 -v $PWD/diagrams:/usr/local/structurizr structurizr/lite
+```
 
 ## MermaidJS
 
@@ -67,3 +73,9 @@ Bravo -> Alpha: Step 4
 </pre>
 </details>
 ```
+
+
+## References
+
+- https://medium.com/@techworldwithmilan/software-architecture-as-code-tools-331a11222da0
+
